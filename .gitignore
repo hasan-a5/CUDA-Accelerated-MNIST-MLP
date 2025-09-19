@@ -1,0 +1,8 @@
+# Ignore the Python virtual environment
+/.venv
+
+# Ignore the compiled executable
+final_code
+
+# Ignore the data folder (it's downloaded by the script)
+/data/
