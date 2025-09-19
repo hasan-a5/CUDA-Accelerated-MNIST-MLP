@@ -48,6 +48,8 @@ The core of the forward pass involves two matrix multiplications:
 1.  **Input to Hidden**: `[Batch Size, 784] @ [784, 256] = [Batch Size, 256]`
 2.  **Hidden to Output**: `[Batch Size, 256] @ [256, 10] = [Batch Size, 10]`
 
+<img width="1242" height="350" alt="Screenshot 2025-09-19 164900" src="https://github.com/user-attachments/assets/9f84b204-8368-4485-9eef-fce47c125100" />
+
 ---
 
 ## Dependencies & Setup
@@ -100,3 +102,4 @@ Follow these steps in your terminal.
     ./final_code
     ```
     You will see the training progress for each epoch, followed by the final performance report.
+
